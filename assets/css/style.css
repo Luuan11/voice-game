@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+:root {
+    --font-family: 'Poppins', san-serif;
+    --primaryColor: #F9F7F7;
+    --secondColor: #112D4E;
+    --bgColor: #3F72AF;
+}
+
+body{
+    font-family: var(--font-family);
+
+    background-color: var(--bgColor);
+    color: var(--primaryColor);
+    text-align: center;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.main h1{
+    font-size: 5em;
+}
+
+.main p{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.main .mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.guess-box{
+    border: 2px solid var(--primaryColor);
+    display: inline-block;
+    font-size: 4em;
+    padding: 15px;
+    margin: 20px;
+}
