@@ -37,7 +37,7 @@ body{
     margin-top: 40px;
 }
 
-.guess-box{
+.main .guess-box{
     border: 2px solid var(--primaryColor);
     display: inline-block;
     font-size: 4em;
